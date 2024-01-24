@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.positionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.position {
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  width: max-content;
+}
+.name {
+  color: #202020;
+  font-size: 28px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.employeeList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 151px;
+  width: 1186px;
+  height: 538px;
+  margin: 100px auto;
+}
+.employeeLine {
+  border-top: 0.5px solid #c2c2c2;
+  position: relative;
+}
+.employeeLine::before {
+  content: "OUR TEAM";
+  position: absolute;
+  top: -8px;
+  margin-left: 320px;
+  width: 100px;
+  height: 10px;
+  padding-left: 30px;
+  border-radius: 50%;
+  background: #FFF;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

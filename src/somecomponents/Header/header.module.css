@@ -1,0 +1,22 @@
+.li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  padding-top: 26px;
+  font-weight: 700;
+}
+.headerContainer{
+  display: flex;
+  width: 1181px;
+  height: 58px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 53px auto 0px auto;
+
+}
+.logoContainer{
+  display: flex;
+  gap:25px
+  
+}

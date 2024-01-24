@@ -1,0 +1,38 @@
+.introdutionContainer {
+  width: 1186px;
+  height: 427px;
+  margin: 0px auto 100px auto;
+}
+.introdutionTitle {
+  width: 1185px;
+  height: 66px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 65px;
+  text-align: center;
+  color: #202020;
+}
+
+.introdutionParagraf {
+  width: 741px;
+  height: 196px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+
+  color: #4f4f4f;
+}
+.introdutionButton {
+  width: 235px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  background: #5528ff;
+  border-radius: 10px;
+  border: none;
+}

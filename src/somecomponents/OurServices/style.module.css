@@ -1,0 +1,62 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 422px;
+  width: 1186px;
+  margin: 102px auto;
+  
+}
+.description {
+  width: 309px;
+  height: 61px;
+  color: #b2b2b2;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.h3 {
+  color: #000;
+  font-size: 28px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.serviceBlock {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 60px;
+  align-items: center;
+}
+.image {
+  height: 61px;
+}
+.line {
+  border-top: 0.5px solid #c2c2c2;
+  position: relative;
+}
+.line::before {
+  content: "OUR SERVICES";
+  position: absolute;
+  top: -8px;
+  margin-left: 320px;
+  width: 100px;
+  height: 10px;
+  padding-left: 30px;
+  border-radius: 50%;
+  background: #FFF;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.positionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
